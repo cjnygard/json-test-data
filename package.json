@@ -1,0 +1,26 @@
+{
+    "name": "@com.github.cjnygard/json-test-data",
+    "version": "0.0.1",
+    "description": "produce JSON test data from JSON Schema",
+    "license": "Apache v2.0",
+    "private": "true",
+    "author": {
+        "name": "Carl Nygard",
+        "email": "cjnygard@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cjnygard/json-test-data.git"
+    },
+    "dependencies": {
+        "express": ">=4.13.3",
+        "body-parser": ">=1.14.1",
+        "json-schema-faker": ">=0.2.5"
+    },
+    "engines": {
+        "node": ">=5.1.0"
+    },
+    "config": {
+        "port": "3000"
+    }
+}
